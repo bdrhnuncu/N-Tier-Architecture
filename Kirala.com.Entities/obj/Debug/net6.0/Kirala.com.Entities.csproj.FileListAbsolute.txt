@@ -1,0 +1,12 @@
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Entities\bin\Debug\net6.0\Kirala.com.Entities.deps.json
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Entities\bin\Debug\net6.0\Kirala.com.Entities.dll
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Entities\bin\Debug\net6.0\Kirala.com.Entities.pdb
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Entities\obj\Debug\net6.0\Kirala.com.Entities.csproj.AssemblyReference.cache
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Entities\obj\Debug\net6.0\Kirala.com.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Entities\obj\Debug\net6.0\Kirala.com.Entities.AssemblyInfoInputs.cache
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Entities\obj\Debug\net6.0\Kirala.com.Entities.AssemblyInfo.cs
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Entities\obj\Debug\net6.0\Kirala.com.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Entities\obj\Debug\net6.0\Kirala.com.Entities.dll
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Entities\obj\Debug\net6.0\refint\Kirala.com.Entities.dll
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Entities\obj\Debug\net6.0\Kirala.com.Entities.pdb
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Entities\obj\Debug\net6.0\ref\Kirala.com.Entities.dll

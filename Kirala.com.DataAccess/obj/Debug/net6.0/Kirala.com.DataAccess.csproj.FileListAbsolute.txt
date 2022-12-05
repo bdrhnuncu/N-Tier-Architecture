@@ -1,0 +1,17 @@
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.DataAccess\bin\Debug\net6.0\Kirala.com.DataAccess.deps.json
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.DataAccess\bin\Debug\net6.0\Kirala.com.DataAccess.runtimeconfig.json
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.DataAccess\bin\Debug\net6.0\Kirala.com.DataAccess.dll
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.DataAccess\bin\Debug\net6.0\Kirala.com.DataAccess.pdb
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.DataAccess\bin\Debug\net6.0\Kirala.com.Entities.dll
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.DataAccess\bin\Debug\net6.0\Kirala.com.Entities.pdb
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.DataAccess\obj\Debug\net6.0\Kirala.com.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.DataAccess\obj\Debug\net6.0\Kirala.com.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.DataAccess\obj\Debug\net6.0\Kirala.com.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.DataAccess\obj\Debug\net6.0\Kirala.com.DataAccess.AssemblyInfo.cs
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.DataAccess\obj\Debug\net6.0\Kirala.com.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.DataAccess\obj\Debug\net6.0\Kirala.com.DataAccess.csproj.CopyComplete
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.DataAccess\obj\Debug\net6.0\Kirala.com.DataAccess.dll
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.DataAccess\obj\Debug\net6.0\refint\Kirala.com.DataAccess.dll
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.DataAccess\obj\Debug\net6.0\Kirala.com.DataAccess.pdb
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.DataAccess\obj\Debug\net6.0\Kirala.com.DataAccess.genruntimeconfig.cache
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.DataAccess\obj\Debug\net6.0\ref\Kirala.com.DataAccess.dll

@@ -1,0 +1,17 @@
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Business\bin\Debug\net6.0\Kirala.com.Business.deps.json
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Business\bin\Debug\net6.0\Kirala.com.Business.dll
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Business\bin\Debug\net6.0\Kirala.com.Business.pdb
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Business\obj\Debug\net6.0\Kirala.com.Business.csproj.AssemblyReference.cache
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Business\obj\Debug\net6.0\Kirala.com.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Business\obj\Debug\net6.0\Kirala.com.Business.AssemblyInfoInputs.cache
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Business\obj\Debug\net6.0\Kirala.com.Business.AssemblyInfo.cs
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Business\obj\Debug\net6.0\Kirala.com.Business.csproj.CoreCompileInputs.cache
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Business\obj\Debug\net6.0\Kirala.com.Business.dll
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Business\obj\Debug\net6.0\refint\Kirala.com.Business.dll
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Business\obj\Debug\net6.0\Kirala.com.Business.pdb
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Business\obj\Debug\net6.0\ref\Kirala.com.Business.dll
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Business\bin\Debug\net6.0\Kirala.com.DataAccess.dll
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Business\bin\Debug\net6.0\Kirala.com.Entities.dll
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Business\bin\Debug\net6.0\Kirala.com.DataAccess.pdb
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Business\bin\Debug\net6.0\Kirala.com.Entities.pdb
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.Business\obj\Debug\net6.0\Kirala.com.Business.csproj.CopyComplete
