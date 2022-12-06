@@ -38,10 +38,11 @@ namespace Kirala.com.Business.Concrete.Managers
             if (loginCheck.IsSuccess)
             {
                 var map = _mapper.Map<User>(userLoginDto);
-                var token = _jwtHelper.CreateToken(map);
+                var user = await _userRepository.Get(x => x.Name == map.Name && x.Password == map.Password);
+                var token = _jwtHelper.CreateToken(user);
                 return new SuccessDataResult<AccessToken>(token);
             }
-            return new ErrorDataResult<AccessToken>(null,loginCheck.Message);
+            return new ErrorDataResult<AccessToken>(null, loginCheck.Message);
         }
 
         [ValidationAspect(typeof(UserRegisterDtoValidator))]

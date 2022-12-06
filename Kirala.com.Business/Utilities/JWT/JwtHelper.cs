@@ -21,8 +21,9 @@ namespace Kirala.com.Business.Utilities.JWT
             _configuration = configuration;
             _tokenOptions = _configuration.GetSection("TokenOptions").Get<TokenOptions>();
         }
+
         public AccessToken CreateToken(User user)
-        {
+        { 
             var claims = Claims(user);
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_tokenOptions.SecurityKey));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256Signature);
@@ -54,6 +55,7 @@ namespace Kirala.com.Business.Utilities.JWT
             {
                 new Claim(JwtRegisteredClaimNames.Sub, user.Name),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()), //unique
+                new Claim(ClaimTypes.Role, user.Role),
             };
             return claims;
         }

@@ -24,15 +24,17 @@ namespace Kirala.com.WebAPI.Controllers
             return Ok(await _userManager.Login(userLoginDto));
         }
 
+        [AllowAnonymous]
         [HttpPost]
         [Route("([Action])")]
-        public async Task<IActionResult> Create(UserRegisterDto userRegister)
+        public async Task<IActionResult> Register(UserRegisterDto userRegister)
         {
             if (userRegister != null)
                 return Ok(await _userManager.Create(userRegister));
             return NotFound();
         }
 
+        [Authorize(Roles = "Admin,User")]
         [HttpPut]
         [Route("([Action])")]
         public async Task<IActionResult> Update(UserUpdateDto userUpdate)
@@ -42,6 +44,7 @@ namespace Kirala.com.WebAPI.Controllers
             return NotFound();
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete]
         [Route("([Action])")]
         public async Task<IActionResult> Delete(UserDto user)
@@ -51,6 +54,7 @@ namespace Kirala.com.WebAPI.Controllers
             return NotFound();
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete]
         [Route("([Action]/{id})")]
         public async Task<IActionResult> DeleteById(int id)
@@ -58,6 +62,7 @@ namespace Kirala.com.WebAPI.Controllers
             return Ok(await _userManager.DeleteById(id));
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         [Route("([Action])")]
         public async Task<IActionResult> GetAll()
@@ -68,6 +73,7 @@ namespace Kirala.com.WebAPI.Controllers
             return NotFound();
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         [Route("([Action]/{id})")]
         public async Task<IActionResult> GetById(int id)
