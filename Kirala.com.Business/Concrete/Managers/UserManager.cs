@@ -10,6 +10,7 @@ using Kirala.com.Business.Utilities.ValidationRules.User;
 using Kirala.com.DataAccess.Abstract;
 using Kirala.com.Entities.Dto_s.User;
 using Kirala.com.Entities.Entities;
+using Microsoft.Extensions.Caching.Memory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,12 +25,14 @@ namespace Kirala.com.Business.Concrete.Managers
         IMapper _mapper;
         IUserBusinessRule _userBusinessRule;
         IJwtHelper _jwtHelper;
-        public UserManager(IUserRepository userRepository, IMapper mapper, IUserBusinessRule userBusinessRule, IJwtHelper jwtHelper)
+        IMemoryCache _memoryCache;
+        public UserManager(IUserRepository userRepository, IMapper mapper, IUserBusinessRule userBusinessRule, IJwtHelper jwtHelper, IMemoryCache memoryCache)
         {
             _userRepository = userRepository;
             _mapper = mapper;
             _userBusinessRule = userBusinessRule;
             _jwtHelper = jwtHelper;
+            _memoryCache = memoryCache;
         }
 
         public async Task<IDataResult<AccessToken>> Login(UserLoginDto userLoginDto)
@@ -83,13 +86,14 @@ namespace Kirala.com.Business.Concrete.Managers
 
         public async Task<IDataResult<List<UserDto>>> GetAll()
         {
-            var users = await _userRepository.GetAll();
-            if (users != null)
+            if (!_memoryCache.TryGetValue("GetAllUser", out List<UserDto> response))
             {
+                var users = await _userRepository.GetAll();
                 var map = _mapper.Map<List<UserDto>>(users);
+                _memoryCache.Set("GetAllUser", map, TimeSpan.FromMinutes(3));
                 return new SuccessDataResult<List<UserDto>>(map);
             }
-            return null;
+            return new SuccessDataResult<List<UserDto>>(_memoryCache.Get<List<UserDto>>("GetAllUser"));
         }
 
         public async Task<IDataResult<UserDto>> GetById(int id)

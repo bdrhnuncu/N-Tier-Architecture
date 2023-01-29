@@ -95,3 +95,8 @@ C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.WebAPI\bin\Debug\net6.0\runtim
 C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.Kirala.com.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.Kirala.com.WebAPI.props
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Kirala.com.WebAPI.props
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Kirala.com.WebAPI.props
+C:\Users\Bedo-\source\repos\Kirala.com\Kirala.com.WebAPI\obj\Debug\net6.0\staticwebassets.pack.json
